@@ -1,0 +1,19 @@
+
+el  proyecto es un sistema de gestión veterinaria donde un médico puede registrar mascotas de tipo perro o gato. Además, el consultorio puede generar turnos que los médicos asignarán a las mascotas que van a atender.
+
+Cada mascota tiene las siguientes características:
+
+Nombre
+ID
+Raza
+Y cada mascota puede tener asociado un turno, que consiste en:
+
+ID
+Fecha de atención
+Disponibilidad (un booleano que indica si el turno está disponible o no)
+El flujo general del sistema incluiría:
+
+Registro de mascotas por parte del médico.
+Generación de turnos por parte del consultorio.
+Asignación de estos turnos a las mascotas por parte de los médicos para indicar cuándo serán atendidas.
+Con esta interpretación, se entiende que los médicos tendrán la capacidad de gestionar las mascotas que atienden y asignarles turnos para su atención en el consultorio veterinario.
